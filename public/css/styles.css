@@ -73,6 +73,16 @@ header div.logo{
     
 }
 
+.abajo h4 p{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.abajo{
+    text-align:center;
+    margin-left: 30px;
+}
+
+
 
 header nav{
     font-size: 18px;
@@ -267,103 +277,16 @@ main section article i,
 
 /*comportamiento adaptativo*/
 
-@media(min-width: 361px){
-
-
-    .div-avatar{width: 70%;text-align: center;}
-    .div-email-profile{width: 70%;}
-
-
-
-
-    .create-form{margin: 30px;}
-
-
-
-    #logo, #search-bar{
-        width: 50%;
-        text-align: center;
+@media(min-width: 360px){
+    .prod{
+        justify-content: center;
     }
-
-    .top-header-p { width: 100%; text-align: center;margin-top: 10px;}
-
-
-    .article-product{
-        width: 45%;
     }
-
-    .box-products{
-        display: flex;
-        flex-wrap: wrap;
-        /*justify-content: space-between;*/
-        align-items: stretch;
-    }
-
-    .price, .discount{
-        flex-grow: 1;
-    }
-
 }
 
-@media(min-width: 769px){
-
-    .div-avatar{width: 30%;}
-    .div-email-profile{width: 30%;}
-    .main-login{width: 50%;}
-
-    .create-form{margin: 5% 25%;}
-
-    #img-size{width: 200px;}
-    #logo{text-align: left;}
-
-    #top-header{display: flex;justify-content: space-between;align-items: center;}
-
-    #logo, #search-bar, .top-header-p {width: 33%;}
-
-    .top-header-p{text-align: right;}
-
-    .hidden{display: block;}
-
-    .article-product:hover{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        transition: 450ms;
-    }
-
-    .article-product:hover h4.hidden-product{
-        display: block;
-    }
+ 
     
-    .article-product:hover .fa-truck{
-        transform: rotate(-90deg);
-        transition: 1000ms;
-    }
-
-    #burger-menu{
-        display: none;
-    }
-
-    .article-product{
-        margin: 15px;
-        width: 22%;
-    }
 
 
-    #navbar{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        margin: 10px 0px;
-    }
 
-    .nav-design a{text-decoration: none; color: #333;font-weight: lighter;}
-    .login-nav li i{color: #333;}
 
-    .nav-design ul{list-style: none;margin: 0px 10px;}
-
-    #navbar ul{display: flex;}
-    .nav-design ul li{margin: 0px 15px; font-size: 14px;}
-
-    .box-footer{display: flex; flex-grow: 1;}
-    .div-footer p{text-align: center;}
-
-}

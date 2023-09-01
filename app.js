@@ -10,3 +10,7 @@ app.listen(3013, ()=>{
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
 });
+
+app.get("/Registro", (req, res) => {
+    res.sendFile(__dirname + "/views/formulario.html")
+});
