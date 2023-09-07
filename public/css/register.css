@@ -2,20 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+
 
 }
-.form-registro{
-    width: 400px;
-    background:yellow;
+.registro1{
+    width: 100px;
+    background-color: rgb(202, 202, 10);
     opacity: 0.5;
-    padding: 30px;
+    padding: 70px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     border border-radius: 4px;
+
 }
-.form-registro h4{
-    font-size: 23px;
-    margin-bottom: 20px;
+
+form.formRegistro h4{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight:200;
+    
 
 }
 .controls{
@@ -28,14 +34,14 @@
     font-size: 18px;
 }
 
-.form-registro p{
+form.formRegistro p{
     height: 40px;
     text-align: center;
     font-size: 18px;
 
 }
 
-.form-registro a{
+form.formRegistro a{
     color: black;
     text-decoration: none;
 }
